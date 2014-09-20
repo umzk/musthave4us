@@ -47,7 +47,9 @@ before_action  :find_item, only:[:show, :edit,:update, :destroy]
       params.require(:item).permit(:title, :description)
     end
 
-      def find_item
-+      @item = Item.find(params[:id])
-+   end
+    def find_item
+      @item = Item.where(id: params[:id]).first
+      render_404 unless @item
+    end 
+
 end
