@@ -47,7 +47,7 @@ before_action  :find_item, only:[:show, :edit,:update, :destroy]
       params.require(:item).permit(:title, :description)
     end
 
-      def find_transaction
+      def find_item
 +      @item = Item.find(params[:id])
 +   end
 end
