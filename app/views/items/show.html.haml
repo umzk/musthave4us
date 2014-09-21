@@ -1,4 +1,4 @@
 %h1= @item.title 
 %p Описание: #{@item.description} 
-= link_to "Редактировать", edit_item_path(@item) 
+= link_to "Редактировать", edit_item_path(@item) if can_edit_item?(@item)
 = link_to 'Назад', items_path 

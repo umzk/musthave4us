@@ -1,5 +1,5 @@
-%h1 Создание нового товара
-= form_for @item do |f|
+%h1 Создание 
+= simple_form_for @item do |f|
   = render partial: "form", locals: { f: f }
-  = f.submit "Создать товар"
+  = f.submit "Создать "
 = link_to 'Назад', items_path
