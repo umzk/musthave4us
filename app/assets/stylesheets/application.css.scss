@@ -3,7 +3,8 @@ $colors_pink          : #ffb8b8;
 $colors_gray          : #aaa;
 $colors_light_gray    : #a7a7a7;
 $colors_text          : #000;
-
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
 .input {
   margin-top: 1.5em; clear: both; line-height: 100%;
