@@ -4,10 +4,6 @@ gem 'rails', '4.1.5'
 
 gem 'pg'
 
-gem 'sass-rails', '~> 4.0.3'
-
-gem 'bootstrap-sass'
-
 gem 'uglifier', '>= 1.3.0'
 
 gem 'simple_form'
@@ -27,7 +23,6 @@ gem 'spring',        group: :development
 gem 'haml-rails'
 
 gem 'devise'
-
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

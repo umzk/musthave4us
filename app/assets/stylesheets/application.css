@@ -1,8 +1,6 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
 
 
-input[type=submit] {@extend .bnt; @extend .btn-success;}
+
 
 
 $colors_red           : #960000;
@@ -10,6 +8,10 @@ $colors_pink          : #ffb8b8;
 $colors_gray          : #aaa;
 $colors_light_gray    : #a7a7a7;
 $colors_text          : #000;
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of 7c051df... add bootstrap
 
 .input {
   margin-top: 1.5em; clear: both; line-height: 100%;
